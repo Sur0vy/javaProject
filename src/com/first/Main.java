@@ -5,13 +5,18 @@ import com.first.common.Course;
 
 public class Main {
 
+    final static double pi = 3.14;
+
     public static double getCircleArea(double radius){
-        double pi = 3.14;
         return(pi * radius * radius);
     }
 
     public static double getCircleDiameter(double radius){
         return(radius * 2);
+    }
+
+    public static double getCircleLength(double radius){
+        return(2 * pi * radius);
     }
 
     public static void main(String[] args){
