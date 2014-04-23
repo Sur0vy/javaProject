@@ -10,6 +10,10 @@ public class Main {
         return(pi * radius * radius);
     }
 
+    public static double getCircleDiameter(double radius){
+        return(radius * 2);
+    }
+
     public static void main(String[] args){
 
         System.out.println("Hello java_1!");
@@ -29,7 +33,8 @@ public class Main {
 
         System.out.println("hello! First commit!");
 
-        System.out.println(getCircleArea(2.2));
+        System.out.println("Area = " + getCircleArea(2.2));
+        System.out.println("Diameter = " + getCircleDiameter(2.2));
 
 
 
