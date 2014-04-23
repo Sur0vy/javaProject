@@ -22,6 +22,8 @@ public class Main {
         mStudent.course = new Course();
         mStudent.sayHello();
 
+        System.out.println("hello! First commit!");
+
 
 
 
