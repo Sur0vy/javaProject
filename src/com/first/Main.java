@@ -5,6 +5,11 @@ import com.first.common.Course;
 
 public class Main {
 
+    public static double getCircleArea(double radius){
+        double pi = 3.14;
+        return(pi * radius * radius);
+    }
+
     public static void main(String[] args){
 
         System.out.println("Hello java_1!");
@@ -23,6 +28,8 @@ public class Main {
         mStudent.sayHello();
 
         System.out.println("hello! First commit!");
+
+        System.out.println(getCircleArea(2.2));
 
 
 
